@@ -12,6 +12,14 @@ function callName(firstName, lastName) {
 
 console.log(callName("Crystal", "Martin"));
 
+
+const callName = (firstName, lastName) => {
+  const intro = `My name is `;
+  makeFullName = () => `${intro} ${firstName} ${lastName}!`;
+  return makeFullName();
+}
+console.log(callName("Slim", "Shady"))
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
